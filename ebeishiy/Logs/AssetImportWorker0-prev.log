@@ -15,7 +15,7 @@ D:/UnityGames/RPG-Thing/ebeishiy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56901
+55971
 Successfully changed project path to: D:/UnityGames/RPG-Thing/ebeishiy
 D:/UnityGames/RPG-Thing/ebeishiy
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/UnityGames/RPG-Thing/ebeishiy
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 88.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 89.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.0b9 (a43aced8177f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.0b9/Editor/Data/Resources/UnitySubsystems
@@ -67,36 +67,36 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.0b9/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008688 seconds.
+Registered in 0.008791 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.702 seconds
+- Completed reload, in  0.741 seconds
 Domain Reload Profiling:
-	ReloadAssembly (703ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (742ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
-				TypeCache.Initialize (121ms)
-					TypeCache.ScanAssembly (119ms)
+			SetupTypeCache (124ms)
+				TypeCache.Initialize (123ms)
+					TypeCache.ScanAssembly (122ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (84ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadAttributes (156ms)
 				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -104,4 +104,74 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003704 seconds.
+Registered in 0.004107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\RPG-Thing\ebeishiy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGames\RPG-Thing\ebeishiy\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (995ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+				TypeCache.Initialize (269ms)
+					TypeCache.ScanAssembly (266ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3761 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (131.3 KB). Loaded Objects now: 4227.
+Memory consumption went from 0.57 GB to 0.57 GB.
+Total: 3.151400 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.207400 ms MarkObjects: 2.575300 ms  DeleteObjects: 0.081700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1981196.236887 seconds.
+  path: Assets/xfyjxfgyjxgj
+  artifactKey: Guid(de66d97310a70424786aaf769d8f0e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/xfyjxfgyjxgj using Guid(de66d97310a70424786aaf769d8f0e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2810cada8461784b47c7fee99903f67e') in 0.007652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.896593 seconds.
+  path: Assets/xfyjxfgyjxgj/Player.prefab
+  artifactKey: Guid(f57837c0ae139bc43ab417c9bd9c5401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/xfyjxfgyjxgj/Player.prefab using Guid(f57837c0ae139bc43ab417c9bd9c5401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd0640509cbdd6737f38f46c13d5def') in 0.140973 seconds 
